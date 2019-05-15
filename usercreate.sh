@@ -6,4 +6,4 @@ read -s -p "Please enter your password:" PASSWORD
 echo $PASSWORD
 echo $pwd
 PHNAME=$(curl http://169.254.169.254/latest/meta-data/public-hostname)
-echo $PHNAME
+echo "The Public DNS Name is" $PHNAME
